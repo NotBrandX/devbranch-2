@@ -12,6 +12,7 @@ function StoryReel(props) {
 				/>
 				<Story
 					image='https://www.cnet.com/a/img/VUb0TV3K1utUcsa3j6K3uIQZOKc=/940x0/2021/10/28/7d78c266-1300-4a71-86dc-bcafdb7ab5cf/facebook-connect-meta-event-october-28-2021-cnet-screenshot-127.png'
+					profileSrc='https://yourwikis.com/wp-content/uploads/2020/01/mark-zuck-img.jpg'
 					title='Mark Zuckerberg'
 				/>
 				<Story

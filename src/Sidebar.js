@@ -1,5 +1,4 @@
 import { Chat, EmojiFlags, ExpandMoreOutlined, LocalHospital, People, Storefront, VideoLibrary } from '@mui/icons-material';
-import userEvent from '@testing-library/user-event';
 import React from 'react';
 import './Sidebar.css';
 import SidebarRow from './SidebarRow';
