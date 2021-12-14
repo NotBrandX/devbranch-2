@@ -48,8 +48,8 @@ function MessageSender() {
                 </div>
 
                 <div className="messageSender_option">
-                    <InsertEmoticon style={{color: "blue"}}/>
-                    <h3>Live Video</h3>
+                    <InsertEmoticon style={{color: "orange"}}/>
+                    <h3>Feeling/Activity</h3>
                 </div>
                 
             </div>
