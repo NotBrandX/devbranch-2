@@ -2,13 +2,15 @@ import { Chat, EmojiFlags, ExpandMoreOutlined, LocalHospital, People, Storefront
 import React from 'react';
 import './Sidebar.css';
 import SidebarRow from './SidebarRow';
+import { useStateValue } from './StateProvider';
 
 function Sidebar() {
+	const [{ user }, dispatch] = useStateValue();
     return (
 			<div className='sidebar'>
 				<SidebarRow
-					src='https://i.imgur.com/2l4t8eC.jpg'
-					title='Brandon Doris'
+				src={user.photoURL}
+					title={user.displayName}
 				/>
 				<SidebarRow
 					Icon={LocalHospital}
